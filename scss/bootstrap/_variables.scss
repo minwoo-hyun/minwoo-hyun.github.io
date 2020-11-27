@@ -44,6 +44,7 @@ $yellow:  #ffc107 !default;
 $green:   #71bc42 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$test_green: #085827 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -61,12 +62,13 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "test_green": $test_green
   ),
   $colors
 );
 
-$primary:       $blue !default;
+$primary:       $green !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -762,7 +764,7 @@ $dropdown-divider-bg:               $gray-200 !default;
 $dropdown-divider-margin-y:         $nav-divider-margin-y !default;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) !default;
 
-$dropdown-link-color:               $gray-900 !default;
+$dropdown-:               $gray-900 !default;
 $dropdown-link-hover-color:         darken($gray-900, 5%) !default;
 $dropdown-link-hover-bg:            $gray-100 !default;
 
