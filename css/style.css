@@ -428,8 +428,10 @@ body:after {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, gives a nice shadow */
 }
 
-.site-navbar-target .nav {
-    display: none !important;
+.site-navbar-target .nav,
+.site-navbar-target ul.nav,
+.site-navbar-target .site-menu-left {
+  display: none !important;
 }
 
 .site-navbar .site-logo {
