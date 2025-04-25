@@ -425,8 +425,8 @@ body:after {
     right: 0;
     z-index: 10000; /* Make sure it's above everything else */
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: white; /* Or match your header background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, gives a nice shadow */
 }
