@@ -554,6 +554,7 @@ body:after {
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li>a {
     padding: 9px 20px;
     display: block;
+    white-space: nowrap;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li>a:hover {
