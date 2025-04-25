@@ -425,6 +425,8 @@ body:after {
     right: 0;
     z-index: 10000; /* Make sure it's above everything else */
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: white; /* Or match your header background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, gives a nice shadow */
 }
@@ -455,7 +457,9 @@ body:after {
 }
 
 .site-navbar .site-navigation .site-menu>li>a {
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: #000;
     display: inline-block;
     text-decoration: none !important;
