@@ -424,6 +424,7 @@ body:after {
     left: 0;
     right: 0;
     z-index: 10000; /* Make sure it's above everything else */
+    width: 100%;
     background-color: white; /* Or match your header background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, gives a nice shadow */
 }
@@ -787,7 +788,7 @@ body:after {
 }
 
 .site-wrap {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 /* .site-navbar.js-sticky-header {
