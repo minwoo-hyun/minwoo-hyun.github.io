@@ -776,6 +776,16 @@ body:after {
     padding-left: 15px !important;
 }
 
+.site-wrap {
+    padding-top: 300px; /* adjust to match the header height */
+}
+
+.site-navbar.js-sticky-header {
+    top: 0 !important;
+    transform: translateY(0%) !important;
+    transition: none !important;
+  }
+
 .sticky-wrapper {
     position: absolute;
     z-index: 100;
