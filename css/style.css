@@ -458,8 +458,8 @@ body:after {
 
 .site-navbar .site-navigation .site-menu>li>a {
     /* padding: 5px 20px; */
-    padding-top: 3.5px;
-    padding-bottom: 3.5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: #000;
     display: inline-block;
     text-decoration: none !important;
