@@ -547,7 +547,7 @@ body:after {
     list-style: none;
     padding: 0;
     margin: 0;
-    min-width: 250px;
+    min-width: 300px;
     white-space: nowrap; /* <-- important: keep text in one line */
 }
 
