@@ -777,14 +777,14 @@ body:after {
 }
 
 .site-wrap {
-    padding-top: 300px; /* adjust to match the header height */
+    padding-top: 100px; /* adjust to match the header height */
 }
 
-.site-navbar.js-sticky-header {
+/* .site-navbar.js-sticky-header {
     top: 0 !important;
     transform: translateY(0%) !important;
     transition: none !important;
-  }
+  } */
 
 .sticky-wrapper {
     position: absolute;
