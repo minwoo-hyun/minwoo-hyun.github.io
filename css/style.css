@@ -408,7 +408,7 @@ body:after {
 
 /* Navbar */
 
-.site-navbar {
+/* .site-navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -416,6 +416,18 @@ body:after {
     z-index: 1999;
     width: 100%;
     border-bottom: rgba(255, 255, 255, 0.7);
+} */
+
+.site-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1999;
+    width: 100%;
+    background-color: #fff; /* ensure visibility */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* optional, subtle shadow */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* optional */
 }
 
 .site-navbar .site-logo {
@@ -776,9 +788,9 @@ body:after {
     padding-left: 15px !important;
 }
 
-.site-wrap {
-    padding-top: 100px; /* adjust to match the header height */
-}
+/* .site-wrap { */
+    /* padding-top: 100px; adjust to match the header height */
+/* } */
 
 /* .site-navbar.js-sticky-header {
     top: 0 !important;
