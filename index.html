@@ -27,6 +27,18 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Work in progress: collapsible abstract -->
+    <style>
+        .abstract-text {
+            display: none;
+            margin-top: 10px;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.7;
+            color: #666;
+        }
+    </style>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QK598XYSG9"></script>
@@ -82,6 +94,8 @@
                                 <li><a href="#wp-section" class="nav-link">working papers</a></li>
 
                                 <li><a href="#publication-section" class="nav-link">publications</a></li>
+
+                                <li><a href="#wip-section" class="nav-link">work in progress</a></li>
 
                                 <!-- <li class="has-children">
                                     <a href="#wp-section" class="nav-link">Research</a>
@@ -269,6 +283,31 @@
                                 (with Yeongjae Kim and Jiyong Eom)
                             </span>
                             <div style="margin-top: 7.5px; font-size: 18px;"><em>Energy Policy</em> (2020)</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class='site-section' id="wip-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center" data-aos="fade-up">
+                        <h2 class="section-title mb-3">work in progress</h2>
+                    </div>
+                </div>
+
+                <div class="row exp-item mb-3" data-aos="fade-up" data-aos-delay="">
+                    <div class="col-12">
+                        <div class="h5 mb-4 text-black wip-item"><b>Financial Frictions and the Regressive Costs of Environmental Regulation</b>
+                            <div style="margin-top: 7.5px; font-size: 18px;"><a href="#" class="abstract-toggle">[Abstract]</a></div>
+                            <div class="abstract-text">TBD</div>
+                        </div>
+
+                        <!-- To add another project, copy the block above:
+                        <div class="h5 mb-4 text-black wip-item"><b>Project Title</b>
+                            <div style="margin-top: 7.5px; font-size: 18px;"><a href="#" class="abstract-toggle">[Abstract]</a></div>
+                            <div class="abstract-text">Abstract text here.</div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -520,6 +559,14 @@
 
 
     <script src="js/main.js"></script>
+
+    <!-- Work in progress: toggle abstract on click -->
+    <script>
+        $(document).on('click', '.abstract-toggle', function (e) {
+            e.preventDefault();
+            $(this).closest('.wip-item').find('.abstract-text').stop(true, true).slideToggle(200);
+        });
+    </script>
 
 </body>
 
